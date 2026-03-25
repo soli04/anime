@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime Site</title>
+</head>
+<body>
+
+<h1>🎌 내 애니 추천 사이트</h1>
+
+<button onclick="show()">추천 보기</button>
+
+<p id="result"></p>
+
+<script>
+function show() {
+  document.getElementById("result").innerText =
+  "진격의 거인 추천! 액션 개쩜";
+}
+</script>
+
+</body>
+</html>
